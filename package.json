@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cypress": "npx cypress open"
+
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/milosdevcic/cypress-priprema/issues"
   },
-  "homepage": "https://github.com/milosdevcic/cypress-priprema#readme"
+  "homepage": "https://github.com/milosdevcic/cypress-priprema#readme",
+  "dependencies": {
+    "cypress": "^12.1.0"
+  }
 }
